@@ -38,3 +38,45 @@ footer {
 li::marker {
     font-weight: bold;
 }
+.lista {
+    padding: 0 0 0 30px;
+}
+.produto {
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.produto h2 {
+    color: #0E6856;
+}
+.produto p {
+    margin: 5px 0;
+}
+.preco {
+    color: coral;
+    font-weight: bold;
+}
+form {
+    padding: 15px;
+    border: 1px solid #0E6856;
+}
+label {
+    color: #0E6856;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #CCC;
+}
+input[type="submit"] {
+    background-color: coral;
+    color: #FFF;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
